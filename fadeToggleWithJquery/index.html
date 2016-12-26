@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- HTML Template -->
+
+<!-- Insert Meta Tags Here -->
+
+<link rel="icon" href="logoOzIco.png">
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").fadeToggle(1000);
+        $("#div2").fadeToggle(5000);
+        $("#div3").fadeToggle(10000);
+    });
+});
+</script>
+
+</head>
+
+<body>
+
+<p>Demonstrate fadeToggle() with different speed parameters.</p>
+
+<button>Click to fade in/out boxes</button><br><br>
+
+
+<div class="container">
+<div class="row"><div class="col-md-4">
+<div id="div1"> <img src="lightImage.jpg" alt="light"></div></div>
+<div class="col-md-4">
+<div id="div2"><img src="njDevils.jpg" alt="light"></div>
+</div>
+<div id="div3"><img src="libertyStatue.jpg" alt="light"></div>
+</div></div>
+</body>
+</html>
